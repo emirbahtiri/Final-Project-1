@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+h1,h2{
+    font-family: $fmonsterrat;
+}
+p, span,a{
+    font-family: $fopensans;
+}
+a{
+    color: black
+}
+
+// MOBILE VERSION (media query)
+@media screen and (max-width: 768px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
